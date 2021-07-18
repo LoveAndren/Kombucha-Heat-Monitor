@@ -1,3 +1,1 @@
-# Project report - 1DT305
-
-[TOC]
+Please read the tutorial at:
