@@ -2,7 +2,7 @@ import time
 import machine
 from machine import Pin
 
-adc = machine.ADC()
+adc = machine.ADC(bits=10)
 #Important that this pin is the same one as the sensor is conected to
 tempPin = adc.channel(pin='P16')
 
