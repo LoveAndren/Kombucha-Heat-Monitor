@@ -35,4 +35,4 @@ while True:
     pybytes.send_signal(1, celsius)
     print("sending: {}".format(celsius))
     #Send every 15 minutes
-    time.sleep(1800)
+    time.sleep(600)
