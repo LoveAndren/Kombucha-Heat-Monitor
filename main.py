@@ -1,3 +1,4 @@
+#Created for Applied IoT summer course 2021, LNU
 import time
 import machine
 from machine import Pin
@@ -34,5 +35,5 @@ while True:
 
     pybytes.send_signal(1, celsius)
     print("sending: {}".format(celsius))
-    #Send every 15 minutes
-    time.sleep(600)
+    #Send every 30 minutes
+    time.sleep(1800)
